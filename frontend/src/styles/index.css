@@ -1,0 +1,166 @@
+@import "./styles.css";
+@import "./home.css";
+@import "./streamflix.css";
+
+/* Video Player Page Specific Styles */
+.standalone-player-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #000;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+}
+
+.player-top-controls {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.85) 0%, transparent 100%);
+  z-index: 10;
+  pointer-events: none;
+}
+
+.player-top-controls * {
+  pointer-events: auto;
+}
+
+.player-back-btn {
+  background: rgba(20, 20, 20, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 8px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s;
+  text-decoration: none;
+}
+
+.player-back-btn:hover {
+  background: #e50914;
+  border-color: #e50914;
+}
+
+.player-title-display {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.player-video-element {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: #000;
+}
+
+/* Database Not Connected Page Styles */
+.error-page-container {
+  min-height: 100vh;
+  background: #141414;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.error-page-header {
+  padding: 1.5rem 4%;
+  border-bottom: 1px solid #222;
+}
+
+.error-page-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem 1.5rem;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.error-page-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: rgba(229, 9, 20, 0.15);
+  border: 2px solid #e50914;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e50914;
+  margin-bottom: 1.5rem;
+}
+
+.error-page-title {
+  font-size: 2.4rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.error-page-message {
+  font-size: 1.15rem;
+  color: #b3b3b3;
+  line-height: 1.6;
+  margin-bottom: 2.25rem;
+}
+
+.error-page-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn-error-return {
+  background: #e50914;
+  color: #fff;
+  border: none;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 12px 28px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-error-return:hover {
+  background: #f40612;
+}
+
+.btn-error-secondary {
+  background: transparent;
+  color: #ccc;
+  border: 1px solid #555;
+  font-size: 1rem;
+  padding: 12px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.btn-error-secondary:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
