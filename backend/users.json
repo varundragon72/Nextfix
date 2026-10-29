@@ -1,0 +1,68 @@
+[
+  {
+    "username": "admin",
+    "password": "admin@1234",
+    "role": "admin",
+    "name": "Administrator"
+  },
+  {
+    "username": "varun",
+    "password": "demo@1234",
+    "role": "user",
+    "name": "Varun"
+  },
+  {
+    "username": "issac",
+    "password": "demo@1234",
+    "role": "user",
+    "name": "Issac"
+  },
+  {
+    "username": "navven",
+    "password": "demo@1234",
+    "role": "user",
+    "name": "Navven"
+  },
+  {
+    "username": "prajeen",
+    "password": "demo@1234",
+    "role": "user",
+    "name": "Prajeen"
+  },
+  {
+    "username": "arun",
+    "password": "demo@1234",
+    "role": "user",
+    "name": "Arun"
+  },
+  {
+    "username": "karthik",
+    "password": "demo@1234",
+    "role": "user",
+    "name": "Karthik"
+  },
+  {
+    "username": "priya",
+    "password": "demo@1234",
+    "role": "user",
+    "name": "Priya"
+  },
+  {
+    "username": "rahul",
+    "password": "demo@1234",
+    "role": "user",
+    "name": "Rahul"
+  },
+  {
+    "username": "sneha",
+    "password": "demo@1234",
+    "role": "user",
+    "name": "Sneha"
+  },
+  {
+    "username": "vikram",
+    "password": "demo@1234",
+    "role": "user",
+    "name": "Vikram"
+  }
+]
